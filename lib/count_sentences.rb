@@ -18,5 +18,6 @@ class String
      array = self.split(".")
     array_2 = array.split("?")
      array3 = array_2.split("!")
+     array3.size 
   end
 end
