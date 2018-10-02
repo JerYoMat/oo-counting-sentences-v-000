@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-     array = self.split(".")
-     array.size 
+     self.split(".").split("?").split("!").size 
+     
   end
 end
